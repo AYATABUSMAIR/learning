@@ -1,0 +1,54 @@
+<html>
+<head>
+<body>
+<p> Cars name </p>
+<ol>
+<li>KIA</li>
+<li>BMW</li>
+<li>M8 </li>
+<li>HONDA</li>
+</OL>
+<p>this is the price in order to the names above </p>
+<ul>
+<li>5000</li>
+<li>65600</li>
+<li>80000</li>
+<li>25900</li>
+</ul>
+<p>Click the button to display what day it is today:</p>
+
+<button onclick="myFunction()">DAY</button>
+
+<p id="demo"></p>
+<script>
+function myFunction() {
+    var D;
+    switch (new Date().getDay()) {
+    case 0:
+            D = "Sunday";
+            break;
+        case 1:
+      D = "Monday";
+            break;
+        case 2:
+      D = "Tuesday";
+            break;
+        case 3:
+    D = "Wednesday";
+            break;
+        case 4:
+      D "Thursday";
+            break;
+        case 5:
+    D= "Friday";
+            break;
+        case  6:
+      D= "Saturday";
+            break;
+    }
+    document.getElementById("demo").innerHTML = "Today is " + D;
+}
+</script>
+
+</body>
+</html>
