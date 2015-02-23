@@ -1,0 +1,87 @@
+body
+{
+width: 600px;
+margin: 20px  auto;
+font-family: sans-serif ;
+}
+
+.meta li:after {
+content : "\\" ;
+padding : 0 2px;
+color: #999 }
+.meta li
+{
+   display :inline ;
+   }
+.meta li: last-child : after {
+  content : " " ;
+}
+
+h2
+{
+   font-size : 39px;
+line-heigh:43px;
+}
+
+article img
+ {
+
+float : left ;
+margin-right:30px;
+}
+
+.preview
+{ float : right ;
+
+ width: 370px ;
+}
+
+a {
+  color: #276056;
+
+  }
+
+
+  a:hover
+   {
+      color : black;
+      }
+
+
+.meta a {
+font-style : italic;
+font-size: 14px;
+ }
+
+ p
+  { font-size:14px ;
+ line-height : 21px ;
+ }
+ .post_info {
+  background: #f3f3f3;
+ color:#999999;
+ text-decoration :none;
+ }
+
+ .post _info {
+ background: #f3f3f3;
+ color : #999 ;
+ }
+.post_info  a : hover {
+
+  color : black ;
+}
+
+ .post_info a {
+   color:#999;
+   text-decoration:none;
+padding :2px;
+ }
+ .body{
+    clear:both;
+    color : #575757;
+  }
+.meta {
+  padding-left :0 ;
+}
+articsl h2 {margin-top:0}
